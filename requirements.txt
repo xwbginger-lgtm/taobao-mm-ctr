@@ -1,0 +1,8 @@
+# 核心依赖（Taobao-MM CTR 预测）
+torch>=2.0
+numpy
+pandas
+pyarrow
+scikit-learn
+lightgbm
+matplotlib

@@ -1,0 +1,50 @@
+# ============ 数据 ============
+train/
+feature_map/
+data/
+processed/
+*.parquet
+*.npy
+
+# ============ 实验产物 ============
+runs/
+outputs/
+*.pt
+
+# ============ 服务化旧资产（整个目录不提交）============
+serving/
+# ============ 缓存 ============
+.hfd/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# ============ 虚拟环境 ============
+venv/
+.venv/
+*.egg-info/
+
+# ============ 根目录临时脚本（不提交）============
+check_data.py
+check_vocab_hash.py
+debug_signal*.py
+explore.py
+inspect_ckpt.py
+model_din_nocat.py
+plot_shards_old.py
+processed.py
+split_assets.py
+分割资产.py
+分片1_2_4可视化.py
+查看vocab_topk.npy是否是同一轮.py
+
+# ============ 系统 ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
